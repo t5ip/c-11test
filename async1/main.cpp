@@ -4,6 +4,11 @@
 #include <vector>
 #include <chrono>
 
+/* 
+    Prints the stdin lines using  asynchronous or deferred launch policy.
+    Control the mode using bAsync.
+*/
+
 int printline(const std::string &in)
 {
     int i=3;
